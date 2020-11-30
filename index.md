@@ -1,8 +1,6 @@
 ---
 layout: default
-title : 
+title :  
 ---
-# home
 
-홈화면입니다. 
-
+API 목록
