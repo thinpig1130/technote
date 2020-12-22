@@ -1,6 +1,6 @@
 ---
 layout: jekyll
-title :  
+title: jekyll
 ---
 
 jekyll
