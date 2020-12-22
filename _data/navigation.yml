@@ -4,3 +4,7 @@
   link : /jekyll/
 - name : DB
   link : /db/
+- name : spring
+  link : /spring/
+- name : blog
+  link : /blog.html
