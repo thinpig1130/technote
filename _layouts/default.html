@@ -13,6 +13,14 @@
           </a></li>
         {% endfor %}
     </ul>
+
+    {% for category in site.categories %}
+      <h2>
+        <a href="">
+          {{ category[0] }}
+        </a>
+      </h2>
+    {% endfor %}
     {{ content }}
   </body>
 </html>
