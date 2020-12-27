@@ -1,7 +1,7 @@
 - name : DB
   link : "/DB.html"
-- name : spring
-  link : /spring.html
+- name : Spring
+  link : /Spring.html
 - name : jekyll
   link : /jekyll.html
 - name : ALL
