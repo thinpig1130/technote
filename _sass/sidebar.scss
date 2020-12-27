@@ -1,6 +1,7 @@
 .sidebar{
-    width : 120px;
+    width : 170px;
     font-size: 15px;
+    padding: 30px;
 }
 .sidebar .sidebar__title{
     color:green;
@@ -9,5 +10,5 @@
     font-weight: 700;
 }
 .sidebar .sidebar__nav li{
-    padding: 3px;
+    padding: 15px 0px 0px 0px;
 }
