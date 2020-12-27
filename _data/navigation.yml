@@ -2,5 +2,7 @@
   link : /DB.html
 - name : spring
   link : /spring.html
-- name : 전체글
+- name : jekyll
+  link : /jekyll.html
+- name : ALL
   link : /blog.html

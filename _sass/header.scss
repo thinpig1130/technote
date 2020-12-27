@@ -1,0 +1,35 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header .header__div{
+    width : 80%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px 10px 20px;
+}
+.header__div .header__title{
+    font-size: 20px;
+    font-weight: 700;
+    height : 25px;
+    width : 170px;
+    
+}
+.header__div .header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__div .header__nav li{
+    padding : 0px 7px 0px 7px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.header__nav li a, 
+.header__nav li a:visited{
+    color: white;
+}
