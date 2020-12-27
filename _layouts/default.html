@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }} | Tech Note</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
   </head>
   <body>
     <header>
@@ -29,7 +29,7 @@
           </div>
           <ul class="sidebar__nav"> 
             {% for item in site.data.navigation %}
-              <li><a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+              <li><a href="{{ item.link | relative_url }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
                 {{ item.name }}
               </a></li>
             {% endfor %}
