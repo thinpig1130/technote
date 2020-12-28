@@ -3,12 +3,18 @@
     border-bottom-width: 1px;
     border-color: gray;
     width: 600px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
-.postlist h2{
+.postlist__date{
+    font-weight: 400;
+    font-size: 16px;
+ }
+.postlist__title{
    font-weight: 800;
-   font-size: 30px;
+   font-size: 35px;
 }
-.postlist p{
-    color: lightgray;
-    font-size: 10px;
+.postlist .postlist__excerpt{
+    color: gray;
+    font-size: 16px;
  }

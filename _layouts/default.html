@@ -12,20 +12,20 @@
           <div class="header__title">
             차곡차곡 기술노트
           </div>
-          <div class="header__current">
-             {{ page.categories }}
-          </div>
         </div>
       </div>
     </header>
+    <div class="body__title">
+      {{ page.categories }}
+    </div>
     <div class="body">
       <div class="body__container">
-        <div class="content">        
+        <div class="content">       
           {{ content }}
         </div>
         <div class="sidebar">
           <div class="sidebar__title">
-            categorys
+            categories
           </div>
           <ul class="sidebar__nav"> 
             {% for item in site.data.navigation %}

@@ -1,15 +1,27 @@
 body{
- background-color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+body .body__title{
+    margin-top: 65px;
+    width : 920px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(151, 149, 149);
+    color:rgb(129, 129, 129);
+    font-size: 70px;
+    text-align: center;
+    padding: 85px 0px 85px 0px;
+
 }
 .body{
-    padding-top: 65px;
     width : 100%;
     display: flex;
     justify-content: center;
 }
 .body__container{
     width : 920px;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     padding : 20px;
@@ -18,5 +30,5 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
