@@ -3,7 +3,9 @@ layout: default
 title: HOME
 ---
 <div class="body__banner">
-    여기에 이미지.
+    블로그 작성자가 <br>
+    궁금하십니까?
+    <input type="button" value="만나러가기">
 </div>
 <div class="body">
     <div class="body__container">
