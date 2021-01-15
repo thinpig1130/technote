@@ -64,8 +64,6 @@ Setter를 이용하여 값을 setting.
 <property name="eng" value="10"/> = 좌우 동일한 의미 = p:eng="10"
 
 
-
-
 위와 같이 편리하게 지시서를 작성하려면 추가적인 처리기의 도움을 받아야 한다.
 
 이클립스 XML 파일 아래 > Namespaces Click! 
