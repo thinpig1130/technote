@@ -1,0 +1,33 @@
+전송받은 MultipartFile 타입의 변수를 이용하여 원하는 위치에 파일을 저장하는 방법
+
+스프링에서 기본적으로 가지고 있는 ServletContext를 이용하여,
+서버 시스템의 실제 경로를 얻어올 수 있다.
+
+
+- 멤버변수로서 자동 DI
+
+@Autowired
+private ServletContext ctx;
+
+- 또는 request객체를 이용하여 얻어냄.
+
+ServletContext ctx = request.getServletContext();
+
+
+String webPath = '/static/upload';
+String realPath = ctx.getRealPath(webPath);
+
+배포된 상태에서의 경로를 얻게 된다.
+
+========
+
+File savePath = new File(realPath);
+
+if(!savePath.exists()) // 실제 파일경로가 존재하는 지 여부 확인
+    savePath.mkdirs(); // 경로가 없으면 경로를 만들어 줌.
+
+realPath += File.separator + fileName; //시스템 자체의 구분자를 추가, 파일명 추가. 
+
+File saveFile = new File(realPath); // 파일객체 생성 
+
+file.transferTo(saveFile); // 전송된 파일을 saveFile에 저장 // 예외 처리 해주어야 함.
