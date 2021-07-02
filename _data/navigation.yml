@@ -1,6 +1,8 @@
 - name : DB
   link : "/DB.html"
 - name : Spring
-  link : /Spring.html
+  link : "/Spring.html"
 - name : jekyll
-  link : /jekyll.html
+  link : "/jekyll.html"
+- name : HeadingToTheGround
+  link : "/learn.html"

@@ -14,9 +14,11 @@
     background-color: white;
 }
 .header .header__div{
-    width : 920px;
+    width : 940px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
+
 }
 .header__div .header__title{
     font-size: 16px;

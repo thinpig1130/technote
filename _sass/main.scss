@@ -5,7 +5,8 @@ body{
 }
 body .body__title{
     margin-top: 65px;
-    width : 920px;
+    max-width : 920px;
+    width: 100%;
     border-style: solid;
     border-bottom-width: 1px;
     border-color: rgb(151, 149, 149);

@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html,
 body,
 div,
@@ -49,9 +50,9 @@ center,
 dl,
 dt,
 dd,
-ol,
-ul,
-li,
+// ol,
+// ul,
+// li,
 fieldset,
 form,
 label,
@@ -106,10 +107,10 @@ nav,
 section {
   display: block;
 }
-ol,
-ul {
-  list-style: none;
-}
+// ol,
+// ul {
+//   list-style: none;
+// }
 blockquote,
 q {
   quotes: none;
@@ -131,4 +132,13 @@ a {
 } 
 a:visited {
   color: black; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+blockquote{
+  border-left: 3px solid #ccc;
+  padding-left: 15px;
 }
